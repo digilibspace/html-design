@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: WebFont;
+	src: url('b31160.woff') format('woff');
+}
+html, body, ul, ol, li {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+	font-size: 100%;
+	color: #FFF;
+}
+h2 {
+	font-size: 1.1em;
+	font-weight: normal;
+	margin: 2em 0 3em
+}
+h3 {
+	font-size: 1em;
+	font-weight: bold;
+	margin-bottom: 0;
+	color: #65CB00
+}
+p {
+	margin: 0;
+	font-size: 0.8em
+}
+ul {
+	list-style-type: none
+}
+#wrapper {
+	position: relative;
+	width: 50%;
+	min-width: 1024px;
+	height: 768px;
+	margin: 0 auto;
+	background-color: #204040
+}
+header {
+	height: 20%;
+	line-height: 2;
+	margin: 0 30% 0 16%;
+}
+.logo-a {
+	padding: 0 5px;
+	margin: 0 20px;
+	background-color: #FFFFCB;
+	color: #1F3F3F;
+	font-size: 5em;
+	font-weight: bold
+}
+.logo-t {
+	font-size: 2.5em;
+	line-height: 2
+}
+nav {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 30%;
+	height: 768px;
+	background-color: #FFFFCB;
+	border-left: 1px solid #fff
+}
+#nav-list {
+	margin: 60% 50px 0 20px
+}
+#nav-list li {
+	margin-bottom: 10px
+}
+#nav-list a, #nav-list a:visited {
+	display: block;
+	text-decoration: none;
+	color: #000;
+	font-size: 1.3em;
+	padding: 5px 0 5px 8px
+}
+#nav-list a:hover {
+	color: #fff;
+	background-color: #1F3F3F
+}
+section {
+	margin: 0 30% 0 15%;
+	padding:0 10px 0 25px;
+	height: 500px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	background-color: #193232
+}
+#content-list {
+	list-style-image: url(bullet.svg);
+	list-style-position: outside;
+}
+#iconlist {
+	margin-left: 7%;
+	list-style: none
+}
+#iconlist li {
+	float: left;
+	width: 25%
+}
+#iconlist a {
+	text-decoration: none;
+	color: #FFF
+}
+.icon {
+	font-family: WebFont;
+	font-size: 2em;
+	color: #CCC;
+	margin-right: 10px;
+	vertical-align: top
+}
+.icon-t {
+	display: inline-block;
+	font-size: 0.7em;
+}
+footer {
+	margin: 0 30% 0 15%;
+	margin-top: 30px;
+	color: #FFFFCB;
+	font-size: .7em;
+}
